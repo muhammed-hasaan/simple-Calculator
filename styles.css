@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    box-sizing: border-box;
+}
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 450px;
+    width: 600px;
+    margin-top: 150px;
+    margin: 0 auto; 
+    margin-top: 100px;
+  background-color: #191b28;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: #fb0066;
+}
+body{
+height: 90vh;
+}
+
+
+.btn{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+
+
+.btn:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100% !important;
+        height: 50px;
+        background:linear-gradient(to bottom right,#a933fe, red,#a933fe );
+        color: white;
+        border: 1px solid black;
+    }
+    @media (max-width:603px) {
+        .container{
+            display: none;
+        }
+    }
